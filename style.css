@@ -2,26 +2,9 @@
   background-color: #3e67b7;
 }
 
-/* header */
-header {
-  display: flex;
-  justify-content: center;
-}
-
-.header__item__01 {
-  display: inline-block;
-  margin: 2px;
-  width: 100px;
-  height: 80px;
-  border: 1px solid white;
-}
-
-.header__item__02 {
-  display: inline-block;
-  width: 800px;
-  margin: 2px;
-  height: 80px;
-  border: 1px solid white;
+p {
+  font-family: "Anton", sans-serif;
+  color: white;
 }
 
 /* container__row01 */
