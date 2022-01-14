@@ -1,17 +1,108 @@
-.parent {
-  height: 2000px;
-  background-color: lightgreen;
-}
-.child {
-  position: fixed;
-  bottom: 0;
-  left: 100px;
-  width: 100px;
-  height: 100px;
-  background-color: orange;
+* {
+  background-color: #3e67b7;
 }
 
-.background {
-  height: 2000px;
-  background-color: honeydew;
+/* header */
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header__item__01 {
+  display: inline-block;
+  margin: 2px;
+  width: 100px;
+  height: 80px;
+  border: 1px solid white;
+}
+
+.header__item__02 {
+  display: inline-block;
+  width: 800px;
+  margin: 2px;
+  height: 80px;
+  border: 1px solid white;
+}
+
+/* container__row01 */
+.container__row01 {
+  display: flex;
+  justify-content: center;
+}
+.container__row01__item__01 {
+  display: inline-block;
+  width: 200px;
+  height: 80px;
+  margin: 2px;
+  border: 1px solid white;
+}
+.container__row01__item__02 {
+  display: inline-block;
+  width: 700px;
+  height: 80px;
+  margin: 2px;
+  border: 1px solid white;
+}
+
+/* container__row02 */
+.container__row02 {
+  display: flex;
+  justify-content: center;
+}
+
+.container__row02__item__03 {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  margin: 2px;
+  border: 1px solid white;
+}
+.container__row02__item__04 {
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  margin: 2px;
+  border: 1px solid white;
+}
+
+/* container__row03 */
+.container__row03 {
+  display: flex;
+  justify-content: center;
+}
+
+.container__row03__item__05 {
+  display: inline-block;
+  width: 500px;
+  height: 300px;
+  margin: 2px;
+  border: 1px solid white;
+}
+.container__row03__item__06 {
+  display: inline-block;
+  width: 400px;
+  height: 300px;
+  margin: 2px;
+  border: 1px solid white;
+}
+
+/* container__row04 */
+.container__row04 {
+  display: flex;
+  justify-content: center;
+}
+
+.container__row04__item__07 {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  margin: 2px;
+  border: 1px solid white;
+}
+.container__row04__item__08 {
+  display: inline-block;
+  width: 600px;
+  height: 200px;
+  margin: 2px;
+  border: 1px solid white;
 }
